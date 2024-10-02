@@ -17,29 +17,40 @@ body {
 
 /* Navbar Styling */
 
-nav{
+/* Navbar Styling */
+nav {
     background: #333;
     padding: 1rem;
-}
-nav h1{
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
     color: #fff;
-    display: inline-block;
-}
-nav ul {
-    display: inline-block;
-    float: right;
-}
-nav ul li {
-    display: inline;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
     margin-left: 2rem;
-}
-nav ul li a {
+  }
+  
+  nav ul li a {
     color: #fff;
     text-decoration: none;
-}
-nav ul li a:hover {
+  }
+  
+  nav ul li a:hover {
     text-decoration: underline;
-}
+  }
+  
 
 /* Hero Section */
 
